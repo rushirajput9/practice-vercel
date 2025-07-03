@@ -1,0 +1,26 @@
+
+
+   /* .iconBg{
+    height: 55px;
+    width: 100px;
+    border-radius: 12px; */
+    /* background-color: rgb(78, 173, 81); */
+    /* display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+   } */
+   .logo{
+    width: 40px;
+    /* height: 65px; */
+    margin-right: 10px;
+   }
+
+   .logoChar{
+    color: #f24854;
+   }
+   .name{
+  
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+   }

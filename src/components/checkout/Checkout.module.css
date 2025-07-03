@@ -1,0 +1,63 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .dialog {
+      width: 600px;
+      height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 24px 32px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: dialog-animation 0.3s ease-in-out;
+  }
+  
+  .scootyGif {
+    width: 400px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .successMsg {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4caf50;
+    margin-bottom: 16px;
+  }
+  
+  .dialog button {
+    background-color: #3e9441;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  @keyframes dialog-animation {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
